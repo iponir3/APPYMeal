@@ -7,10 +7,16 @@
         <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: ws: 'unsafe-inline' https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
     
     <!-- IMPORT to CSS, #NotWorking-->
+    
     <style>
         body {
-            background-color: #FF7700;
+            
+            /* background-color: #FF7700; */
+            background: url(img/main_screen_img.jpg);
+            background-size: cover;
+            filter: blur(5px)
         }
+
     </style>
 
     </head>
@@ -18,10 +24,10 @@
     <body>
 
 
-        <script src="js/modular.js"></script>
+        <!--<script src="js/modular.js"></script>-->
 
 
-        <script type="text/javascript" src="js/index.js"></script>
+        <!-- <script type="text/javascript" src="js/index.js"></script>-->
 
         <module name="header"></module>
 
