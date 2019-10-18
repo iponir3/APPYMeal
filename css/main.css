@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+.restaurant {
+
+}
+
+.name {
+
+}
+
+.distance {
+
+}
+
+.navButton {
+
+}
+
+#header {
+	display: block;
+	height: 50px;
+	background: #595959;
+	position: fixed;
+	top: 0;
+}
+
+#searchField {
+	height: 47px;
+	width: calc(100% - (2 * 10px + 2 * 5px + 40px));
+	padding: 1px 10px;
+	border: none;
+	font-size: 1.5em;
+}
+
+#searchButton {
+	height: 40px;
+	vertical-align: top;
+	margin: 5px;
+}
+
+#restaurantList {
+
+}
+
+#navigation {
+
+}
